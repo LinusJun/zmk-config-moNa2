@@ -66,6 +66,16 @@
             bindings = <&kp LG(D)>;
             key-positions = <2 12>;
         };
+
+        DblQuotation {
+            bindings = <&kp DQT>;
+            key-positions = <19 20>;
+        };
+
+        SglQuote {
+            bindings = <&kp SQT>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
