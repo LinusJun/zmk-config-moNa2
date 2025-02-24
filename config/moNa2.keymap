@@ -62,8 +62,8 @@
             key-positions = <10 11>;
         };
 
-        Desktop {
-            bindings = <&kp LG(D)>;
+        changeLang {
+            bindings = <&kp LC(SPACE)>;
             key-positions = <2 12>;
         };
 
@@ -116,6 +116,11 @@
             bindings = <&kp RBRC>;
             key-positions = <29 30>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <12 24>;
+        };
     };
 
     macros {
@@ -151,10 +156,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R          &kp T                                         &kp Y        &kp U  &kp I     &kp O     &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F          &kp G        &trans            &kp COMMA      &kp H        &kp J  &kp K     &kp L     &mt RCTRL SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &lt 4 CAPSLOCK    &kp DOT        &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RSHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LSHFT ESC  &lt 3 SPACE  &lt 2 TAB         &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R          &kp T                                              &kp Y        &kp U  &kp I     &kp O     &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F          &kp G        &trans            &kp COMMA           &kp H        &kp J  &kp K     &kp L     &mt RCTRL SEMI
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &lt 4 CAPSLOCK    &kp DOT             &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RSHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LSHFT ESC  &lt 3 SPACE  &lt 2 TAB         &mt RALT BACKSPACE  &lt 1 ENTER                             &mt RALT DEL
             >;
 
             sensor-bindings =
@@ -186,9 +191,9 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                         &kp KP_MINUS     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                         &kp KP_MULTIPLY  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &kp KP_NUM  &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_ENTER
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans      &kp KP_MULTIPLY  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans      &kp KP_MINUS     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
 &trans          &trans                  &trans          &trans                   &trans   &trans    &trans      &kp KP_N0                                         &trans
             >;
 
