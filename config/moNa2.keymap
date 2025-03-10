@@ -212,10 +212,10 @@
 
         Game {
             bindings = <
-&kp NUMBER_2  &kp Q  &kp W  &kp E      &kp R                            &trans  &mkp MB4  &trans    &mkp MB5  &kp BACKSPACE
-&kp NUMBER_3  &kp A  &kp S  &kp D      &kp F       &trans       &to 0   &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
-&kp NUMBER_1  &kp X  &kp G  &kp V      &kp Z       &lt 6 ESC    &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
-&kp NUMBER_4  &kp M  &kp I  &kp LCTRL  &kp LSHIFT  &kp SPACE    &trans  &trans                                &trans
+&kp NUMBER_1  &kp Q  &kp W  &kp E      &kp R                             &kp T    &mkp MB4  &trans    &mkp MB5  &kp BACKSPACE
+&kp NUMBER_3  &kp A  &kp S  &kp D      &kp F       &trans       &to 0    &kp H    &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
+&kp NUMBER_2  &kp X  &kp G  &kp V      &kp Z       &kp ESC      &trans   &kp Y    &trans    &mkp MB1  &mkp MB2  &kp SLASH
+&kp NUMBER_4  &kp M  &mo 6  &kp LCTRL  &kp LSHIFT  &kp SPACE    &kp TAB  &kp ESC                                &mkp MB2
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -223,10 +223,10 @@
 
         Game2 {
             bindings = <
-&kp Y          &trans  &trans  &trans  &kp T                        &trans  &trans    &trans    &trans    &trans
-&kp H          &trans  &trans  &trans  &kp SLASH  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&kp BACKSPACE  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&kp ENTER      &trans  &trans  &trans  &trans     &trans    &trans  &trans                                &trans
+&kp ESC  &trans  &trans  &kp T   &kp ENTER                    &trans  &mkp MB4  &trans    &mkp MB5  &trans
+&kp TAB  &trans  &trans  &kp I   &kp SLASH  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp H    &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
+&kp Y    &trans  &trans  &trans  &trans     &trans    &trans  &trans                                &mkp MB2
             >;
 
             sensor-bindings = <&scroll_up_down>;
