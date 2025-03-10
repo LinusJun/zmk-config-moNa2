@@ -214,8 +214,8 @@
             bindings = <
 &kp NUMBER_2  &kp Q  &kp W  &kp E      &kp R                            &trans  &mkp MB4  &trans    &mkp MB5  &kp BACKSPACE
 &kp NUMBER_3  &kp A  &kp S  &kp D      &kp F       &trans       &to 0   &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
-&kp NUMBER_1  &kp X  &kp I  &kp V      &kp G       &lt 6 ESC    &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
-&kp NUMBER_4  &kp H  &kp M  &kp LCTRL  &kp LSHIFT  &kp SPACE    &trans  &trans                                &trans
+&kp NUMBER_1  &kp X  &kp G  &kp V      &kp Z       &lt 6 ESC    &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
+&kp NUMBER_4  &kp M  &kp I  &kp LCTRL  &kp LSHIFT  &kp SPACE    &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -224,7 +224,7 @@
         Game2 {
             bindings = <
 &kp Y          &trans  &trans  &trans  &kp T                        &trans  &trans    &trans    &trans    &trans
-&kp Z          &trans  &trans  &trans  &kp SLASH  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp H          &trans  &trans  &trans  &kp SLASH  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &kp BACKSPACE  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans    &trans    &trans    &trans
 &kp ENTER      &trans  &trans  &trans  &trans     &trans    &trans  &trans                                &trans
             >;
