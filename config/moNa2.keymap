@@ -201,7 +201,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&to 5   &trans  &trans  &trans  &trans                          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans  &trans    &out OUT_BLE  &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &out OUT_USB  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans                                                  &bt BT_CLR_ALL
@@ -212,10 +212,10 @@
 
         layer_5 {
             bindings = <
-&kp NUMBER_1  &kp Q  &kp W  &kp E    &kp R                            &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_2  &kp A  &kp S  &kp D    &kp F       &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_3  &kp X  &kp I  &kp V    &kp G       &kp ESC      &trans  &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_4  &kp H  &kp M  &kp TAB  &kp LSHIFT  &kp SPACE    &trans  &trans                          &trans
+&kp NUMBER_2  &kp Q  &kp W  &kp E      &kp R                            &trans  &mkp MB4  &trans    &mkp MB5  &trans
+&kp NUMBER_3  &kp A  &kp S  &kp D      &kp F       &trans       &to 0   &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp NUMBER_1  &kp X  &kp I  &kp V      &kp G       &kp ESC      &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
+&kp NUMBER_4  &kp H  &kp M  &kp LCTRL  &kp LSHIFT  &kp SPACE    &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
