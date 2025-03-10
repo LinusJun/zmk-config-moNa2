@@ -177,7 +177,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_2 {
+        L2Sym {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                         &kp GRAVE  &kp MINUS  &kp UNDER  &kp BSLH  &kp PIPE
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &trans  &kp TILDE  &kp LPAR   &kp RPAR   &kp LT    &kp GT
@@ -188,7 +188,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_3 {
+        L3Num {
             bindings = <
 &kp ESCAPE  &kp HOME        &kp UP_ARROW    &kp END          &trans                        &kp KP_MULTIPLY  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE
 &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans    &kp KP_NUM  &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_ENTER
@@ -199,7 +199,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_4 {
+        FUNC {
             bindings = <
 &to 5   &trans  &trans  &trans  &trans                          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans  &trans    &out OUT_BLE  &trans        &trans        &trans        &trans        &trans
@@ -210,23 +210,23 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_5 {
+        Game {
             bindings = <
 &kp NUMBER_2  &kp Q  &kp W  &kp E      &kp R                            &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &kp NUMBER_3  &kp A  &kp S  &kp D      &kp F       &trans       &to 0   &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&kp NUMBER_1  &kp X  &kp I  &kp V      &kp G       &kp ESC      &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
+&kp NUMBER_1  &kp X  &kp I  &kp V      &kp G       &lt 6 ESC    &trans  &trans  &trans    &mkp MB1  &mkp MB2  &trans
 &kp NUMBER_4  &kp H  &kp M  &kp LCTRL  &kp LSHIFT  &kp SPACE    &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
         };
 
-        MOUSE {
+        Game2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&kp Y   &trans  &trans  &trans  &kp T                        &trans  &trans    &trans    &trans    &trans
+&kp Z   &trans  &trans  &trans  &kp SLASH  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
