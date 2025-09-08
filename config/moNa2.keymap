@@ -192,7 +192,7 @@
             bindings = <
 &kp ESCAPE  &kp HOME        &kp UP_ARROW    &kp END          &trans                        &kp KP_MULTIPLY  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE
 &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans    &kp KP_NUM  &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans      &kp PAGE_UP     &trans          &kp PAGE_DOWN    &trans  &trans    &trans      &kp KP_EQUAL     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
+&trans      &kp PAGE_UP     &trans          &kp PAGE_DOWN    &trans  &trans    &trans      &kp KP_MULTIPLY  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
 &trans      &trans          &trans          &trans           &trans  &trans    &trans      &kp KP_N0                                         &trans
             >;
 
@@ -212,10 +212,10 @@
 
         Game {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp NUMBER_1                           &kp T    &mkp MB4  &trans    &mkp MB5  &kp BACKSPACE
-&kp R      &kp A  &kp S  &kp D  &kp NUMBER_2  &trans          &to 0    &kp H    &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
-&kp Z      &kp X  &kp G  &kp V  &kp NUMBER_3  &kp NUMBER_4    &trans   &kp Y    &kp I     &mkp MB1  &mkp MB2  &kp SLASH
-&kp LCTRL  &kp M  &mo 6  &kp F  &kp LSHIFT    &kp SPACE       &kp TAB  &kp ESC                                &mkp MB2
+&kp NUMBER_1  &kp Q  &kp W  &kp E      &kp R                             &kp T    &mkp MB4  &trans    &mkp MB5  &kp BACKSPACE
+&kp NUMBER_3  &kp A  &kp S  &kp D      &kp F       &trans       &to 0    &kp H    &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
+&kp NUMBER_2  &kp X  &kp G  &kp V      &kp Z       &kp ESC      &trans   &kp Y    &trans    &mkp MB1  &mkp MB2  &kp SLASH
+&kp NUMBER_4  &kp M  &mo 6  &kp LCTRL  &kp LSHIFT  &kp SPACE    &kp TAB  &kp ESC                                &mkp MB2
             >;
 
             sensor-bindings = <&scroll_up_down>;
