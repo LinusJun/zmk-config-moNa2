@@ -73,17 +73,17 @@
 
         SglQuote {
             bindings = <&kp SQT>;
-            key-positions = <20 21>;
+            key-positions = <18 19>;
         };
 
         Comma {
             bindings = <&kp COMMA>;
-            key-positions = <30 31>;
+            key-positions = <29 30>;
         };
 
         Dot {
             bindings = <&kp DOT>;
-            key-positions = <32 31>;
+            key-positions = <30 31>;
         };
 
         Lpar {
@@ -93,7 +93,7 @@
 
         Rpar {
             bindings = <&kp RPAR>;
-            key-positions = <17 18>;
+            key-positions = <15 16>;
         };
 
         Lbkt {
@@ -113,12 +113,12 @@
 
         Rbrc {
             bindings = <&kp RBRC>;
-            key-positions = <29 30>;
+            key-positions = <27 28>;
         };
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <12 24>;
+            key-positions = <23 24>;
         };
     };
 
