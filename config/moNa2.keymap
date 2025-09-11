@@ -96,26 +96,6 @@
             key-positions = <15 16>;
         };
 
-        Lbkt {
-            bindings = <&kp LBKT>;
-            key-positions = <4 3>;
-        };
-
-        Rbkt {
-            bindings = <&kp RBKT>;
-            key-positions = <5 6>;
-        };
-
-        Lbrc {
-            bindings = <&kp LBRC>;
-            key-positions = <25 26>;
-        };
-
-        Rbrc {
-            bindings = <&kp RBRC>;
-            key-positions = <27 28>;
-        };
-
         caps {
             bindings = <&kp CAPS>;
             key-positions = <23 24>;
